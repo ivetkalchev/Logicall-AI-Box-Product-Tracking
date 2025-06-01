@@ -1,8 +1,8 @@
 
-New Dataset - v1 2025-05-20 3:02pm
+New Dataset - v2 2025-06-01 8:04pm
 ==============================
 
-This dataset was exported via roboflow.com on May 20, 2025 at 1:02 PM GMT
+This dataset was exported via roboflow.com on June 1, 2025 at 6:10 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 185 images.
+The dataset includes 510 images.
 Boxes-products are annotated in YOLOv8 Oriented Object Detection format.
 
 The following pre-processing was applied to each image:
