@@ -1,1 +1,31 @@
-# product-tracking
+<h1 align="center">Logicall AI Product Tracking</h1>
+
+<p align="center">
+  <img src="documents/logicall-logo.png"width="150">
+  <img src="documents/fontys-logo.png"width="150">
+</p>
+
+<p align="center">
+A group project for tracking boxes, products and their barcodes using on-site cameras. Designed for Logicall (https://logicall.com) through Fontys ICT.</p>
+
+<h2 align="center">Assignment</h2>
+
+
+Logicall receives over 150,000 “uncontrolled” returns per month. These boxes need to be unpacked and registered within 2 days of being received. A manual approach would require a significant amount of resources, such as time and labor.
+Our assignment is to automate this process.
+
+First, the boxes are scanned, then opened, and the items inside are placed on a conveyor belt. Next, the items pass under cameras, which capture their barcodes for identification. Our goal is to link each box to the items it contained and record those items in a database.
+
+
+<h2 align="center">Our Solution</h2>
+We went to the company grounds to collect data. We recorded videos of us opening the boxes and laying the items on the belt and also scanning their barcodes. Afterwards we took all the videos we had, split them into frames and used Roboflow to anotate them. With the resulting dataset we trained a YOLO Model to detect the boxes and prodcuts. We also used the COCO dataset for person detection, to ensure that the boxes and products don't get mistaken for one another.
+
+<br>
+<p align="center">
+  <img src="videos/test/Screenshot 2025-06-30 221447.png" width="600">
+</p>
+<h2 align="center">Technologies used:</h2>
+
+<h2 align="center">Clone the repository:</h2>
+
+
