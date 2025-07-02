@@ -18,22 +18,24 @@ First, the boxes are scanned, then opened, and the items inside are placed on a 
 
 
 <h2 align="center">Our Solution</h2>
+<p>
 We visited the company grounds to collect data by recording videos of the unpacking process. Afterwards, we extracted frames from the videos and annotated them using Roboflow to create a labeled dataset. Using this dataset, we trained a custom YOLO model to detect boxes and products and connect each box to the item it contains. Additionally, we incorporated a pre-trained COCO model for person detection to ensure accurate distinction between the objects each person is interacting with.
+</p>
 
-<br><br>
-
-<p align="center">
+<p align="center" style="margin: 20px 0;">
   <img src="videos/test/Screenshot 2025-07-02 193705.png" width="500">
 </p>
 
-After linking each box to it's items, we scan each item's barcode. Our solution works with both the collected data and real-time input.
-<br><br>
+<p>
+After linking each box to its items, we scan each item's barcode. Our solution works with both the collected data and real-time input.
+</p>
 
-<p align="center">
+<p align="center" style="margin: 20px 0;">
   <img src="videos/test/Screenshot 2025-07-02 205500.png" width="500">
 </p>
 
 <h2 align="center">Technologies used:</h2>
+
 <p align="center">
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
