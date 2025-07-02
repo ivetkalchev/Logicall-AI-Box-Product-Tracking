@@ -18,12 +18,19 @@ First, the boxes are scanned, then opened, and the items inside are placed on a 
 
 
 <h2 align="center">Our Solution</h2>
-We went to the company grounds to collect data. We recorded videos of us opening the boxes and laying the items on the belt and also scanning their barcodes. Afterwards we took all the videos we had, split them into frames and used Roboflow to anotate them. With the resulting dataset we trained a YOLO Model to detect the boxes and prodcuts. We also used the COCO dataset for person detection, to ensure that the boxes and products don't get mistaken for one another.
+We visited the company grounds to collect data by recording videos of the unpacking process. Afterwards, we extracted frames from the videos and annotated them using Roboflow to create a labeled dataset. Using this dataset, we trained a custom YOLO model to detect boxes and products and connect each box to the item it contains. Additionally, we incorporated a pre-trained COCO model for person detection to ensure accurate distinction between the objects each person is interacting with.
 
 <br>
 <p align="center">
-  <img src="videos/test/Screenshot 2025-06-30 221447.png" width="600">
+  <img src="videos/test/Screenshot 2025-07-02 193705.png" width="500">
 </p>
+
+After linking each box to its items, we scan each item's barcode. Our solution works with both the collected data and real-time input.
+
+<p align="center">
+  <img src="videos/test/Screenshot 2025-07-02 205500.png" width="500">
+</p>
+
 <h2 align="center">Technologies used:</h2>
 
 <h2 align="center">Clone the repository:</h2>
