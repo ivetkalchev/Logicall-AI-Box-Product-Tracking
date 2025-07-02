@@ -34,6 +34,10 @@ After linking each box to its items, we scan each item's barcode. Our solution w
   <img src="videos/test/Screenshot 2025-07-02 205500.png" width="500">
 </p>
 
+<p>
+After the barcode detection is complete, we save the data into a CSV file.
+</p>
+
 <h2 align="center">Technologies used:</h2>
 
 <p align="center">
