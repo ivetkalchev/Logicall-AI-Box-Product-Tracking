@@ -20,19 +20,48 @@ First, the boxes are scanned, then opened, and the items inside are placed on a 
 <h2 align="center">Our Solution</h2>
 We visited the company grounds to collect data by recording videos of the unpacking process. Afterwards, we extracted frames from the videos and annotated them using Roboflow to create a labeled dataset. Using this dataset, we trained a custom YOLO model to detect boxes and products and connect each box to the item it contains. Additionally, we incorporated a pre-trained COCO model for person detection to ensure accurate distinction between the objects each person is interacting with.
 
-<br>
+<br><br>
+
 <p align="center">
   <img src="videos/test/Screenshot 2025-07-02 193705.png" width="500">
 </p>
 
-After linking each box to its items, we scan each item's barcode. Our solution works with both the collected data and real-time input.
+After linking each box to it's items, we scan each item's barcode. Our solution works with both the collected data and real-time input.
+<br><br>
 
 <p align="center">
   <img src="videos/test/Screenshot 2025-07-02 205500.png" width="500">
 </p>
 
 <h2 align="center">Technologies used:</h2>
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  </a>
+  <a href="https://opencv.org/">
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  </a>
+  <a href="https://ultralytics.com/">
+    <img src="https://img.shields.io/badge/YOLO-Ultralyics-FF0000?style=for-the-badge&logo=yolo&logoColor=white" alt="YOLO" />
+  </a>
+  <a href="https://github.com/NaturalHistoryMuseum/pyzbar">
+    <img src="https://img.shields.io/badge/Pyzbar-282C34?style=for-the-badge&logo=barcode&logoColor=white" alt="pyzbar" />
+  </a>
+  <a href="https://scikit-learn.org/">
+    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Comma-separated_values">
+    <img src="https://img.shields.io/badge/CSV-Data-blue?style=for-the-badge&logo=tableau&logoColor=white" alt="CSV" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Epochs-50-orange?style=for-the-badge" alt="Training Epochs" />
+  </a>
+</p>
+
 
 <h2 align="center">Clone the repository:</h2>
 
+```bash
+git clone https://github.com/ivetkalchev/Logicall-AI-Box-Product-Tracking.git
+cd Logicall-AI-Box-Product-Tracking
 
